@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="img/ocasiones_caer.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Doce Discípulos - IEBP</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <img src="img/Portada-Iebpyouthsg.png" id="logo" alt="Logo IEBP">
+        <ul>
+            <li><a href="#About-us">Nosotros</a></li>
+            <li><a href="#Modalities">Modalidades</a></li>
+            <li><a href="#courses">Cursos</a></li>
+            <li><a href="#contacts-container">Contactos</a></li>
+            <li><a href="#sources">Recursos</a></li>
+        </ul>
+    </nav>
+
+    <div class="panel_container">
+        <h1>Aprendamos un poco más de la Biblia</h1>
+    </div>
+
+    <div class="section_title">
+        <h1>Los doce discípulos <span class="disciple-counter">12</span></h1>
+    </div>
+    
+    <!-- Banner informativo -->
+    <div class="main-container">
+        <div class="info-banner">
+            <i class="fas fa-info-circle"></i>
+            <div>
+                <h3>¿Quiénes fueron los doce discípulos?</h3>
+                <p>Los doce apóstoles fueron los seguidores más cercanos de Jesús, escogidos personalmente por Él para propagar su mensaje. Cada uno tuvo un papel único en la historia del cristianismo.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Filtros para discípulos -->
+    <div class="main-container">
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="pescadores">Pescadores</button>
+            <button class="filter-btn" data-filter="evangelistas">Evangelistas</button>
+            <button class="filter-btn" data-filter="martires">Mártires</button>
+            <button class="filter-btn" data-filter="escritores">Escritores</button>
+        </div>
+    </div>
+    
+    <!-- Contenedor principal con tarjetas y sidebar -->
+    <div class="main-container">
+        <!-- Sidebar con información adicional -->
+        <aside class="sidebar-info">
+            <h2 class="info-title"><i class="fas fa-church"></i> Información Adicional</h2>
+            
+            <div class="info-item">
+                <h3><i class="fas fa-cross"></i> El Llamado</h3>
+                <p>Jesús llamó a cada discípulo personalmente, muchos dejando sus trabajos y familias para seguirle.</p>
+            </div>
+            
+            <div class="info-item">
+                <h3><i class="fas fa-globe-americas"></i> Misión Mundial</h3>
+                <p>Después de la resurrección, fueron enviados a predicar el evangelio por todo el mundo conocido.</p>
+            </div>
+            
+            <div class="info-item">
+                <h3><i class="fas fa-book-bible"></i> Legado Escrito</h3>
+                <p>Varios discípulos escribieron libros del Nuevo Testamento que forman la base del cristianismo.</p>
+            </div>
+            
+            <div class="highlight">
+                <p><strong>Dato interesante:</strong> Los discípulos provenían de diferentes oficios y trasfondos, mostrando que el mensaje de Jesús es para todos.</p>
+            </div>
+            
+            <!-- Timeline -->
+            <div class="timeline">
+                <h3><i class="fas fa-timeline"></i> Cronología Importante</h3>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">~30 d.C.</div>
+                    <div class="timeline-content">
+                        <h4>Llamado de los discípulos</h4>
+                        <p>Jesús llama a los doce para ser sus seguidores más cercanos</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">33 d.C.</div>
+                    <div class="timeline-content">
+                        <h4>Pentecostés</h4>
+                        <p>Reciben el Espíritu Santo y comienzan su ministerio público</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">44 d.C.</div>
+                    <div class="timeline-content">
+                        <h4>Martirio de Santiago</h4>
+                        <p>Primer apóstol en ser martirizado por su fe</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        
+        <!-- Tarjetas de discípulos -->
+        <section class="card-containers">
+            <div class="card" data-category="pescadores escritores">
+                <div class="top">
+                    <h1><i class="fas fa-crown icon"></i> Simón Pedro</h1>
+                    <img src="img/ocasiones_caer.png" alt="Simón Pedro">
+                </div>
+                <h2>Evangelios (Mateo, Marcos, Lucas, Juan), Hechos, 1 y 2 Pedro</h2>
+                <p>Pescador; líder del grupo. Impulsivo, pero firme en la fe. Jesús lo llamó "la roca" sobre la cual edificaría su iglesia. Primer papa de la Iglesia Católica según la tradición.</p>
+            </div>
+
+            <div class="card" data-category="martires">
+                <div class="top">
+                    <h1><i class="fas fa-crown icon"></i> Santiago</h1>
+                    <img src="img/ocasiones_caer.png" alt="Santiago">
+                </div>
+                <h2>Evangelios (Mateo, Marcos, Lucas, Juan) y Hechos</h2>
+                <p>Hermano de Juan; hijo de Zebedeo, parte del círculo íntimo de Jesús. Primer apóstol mártir, ejecutado por orden de Herodes Agripa I alrededor del año 44 d.C.</p>
+            </div>
+            
+            <div class="card" data-category="escritores">
+                <div class="top">
+                    <h1><i class="fas fa-heart icon"></i> Juan</h1>
+                    <img src="img/ocasiones_caer.png" alt="Juan">
+                </div>
+                <h2>Evangelios (Mateo, Marcos, Lucas, Juan)</h2>
+                <p>El "discípulo amado". Escribió el Evangelio de Juan, tres epístolas y el Apocalipsis. Único apóstol que murió de muerte natural, aunque sufrió exilio en Patmos.</p>
+            </div>
+
+            <div class="card" data-category="pescadores">
+                <div class="top">
+                    <h1><i class="fas fa-fish icon"></i> Andrés</h1>
+                    <img src="img/ocasiones_caer.png" alt="Andrés">
+                </div>
+                <h2>Evangelios (Mateo, Marcos, Lucas, Juan)</h2>
+                <p>Hermano de Simón Pedro, también pescador y uno de los primeros discípulos llamados por Jesús. Conocido por llevar a otros a Cristo, incluyendo a su hermano Pedro.</p>
+            </div>
+
+            <div class="card" data-category="evangelistas">
+                <div class="top">
+                    <h1><i class="fas fa-search icon"></i> Felipe</h1>
+                    <img src="img/ocasiones_caer.png" alt="Felipe">
+                </div>
+                <h2>Evangelios (Mateo, Marcos, Lucas, Juan)</h2>
+                <p>Conocido por su deseo de llevar a otros a Jesús, incluyendo a Natanael. Según la tradición, predicó en Frigia (actual Turquía) donde fue martirizado.</p>
+            </div>
+
+            <div class="card" data-category="evangelistas">
+                <div class="top">
+                    <h1><i class="fas fa-tree icon"></i> Bartolomé (Natanael)</h1>
+                    <img src="img/ocasiones_caer.png" alt="Bartolomé">
+                </div>
+                <h2>Evangelios (Mateo, Marcos, Lucas, Juan)</h2>
+                <p>También conocido como Natanael, fue un hombre sincero y buscador de la verdad. Jesús lo elogió por su sinceridad.</p>
+            </div>
+
+            <div class="card" data-category="escritores">
+                <div class="top">
+                    <h1><i class="fas fa-book icon"></i> Mateo (Leví)</h1>
+                    <img src="img/ocasiones_caer.png" alt="Mateo">
+                </div>
+                <h2>Evangelios (Mateo, Marcos, Lucas, Juan)</h2>
+                <p>Un recaudador de impuestos que se convirtió en discípulo y autor del Evangelio de Mateo. Su transformación muestra el poder del llamado de Jesús.</p>
+            </div>
+
+            <div class="card" data-category="evangelistas">
+                <div class="top">
+                    <h1><i class="fas fa-question icon"></i> Tomás (El incrédulo)</h1>
+                    <img src="img/ocasiones_caer.png" alt="Tomás">
+                </div>
+                <h2>Evangelios (Mateo, Marcos, Lucas, Juan)</h2>
+                <p>Conocido como "Tomás el incrédulo", famoso por dudar de la resurrección de Jesús. Su fe se fortaleció al ver a Cristo resucitado.</p>
+            </div>
+
+            <div class="card" data-category="evangelistas">
+                <div class="top">
+                    <h1><i class="fas fa-user icon"></i> Santiago (Hijo del Alfeo)</h1>
+                    <img src="img/ocasiones_caer.png" alt="Santiago menor">
+                </div>
+                <h2>Evangelios (Mateo, Marcos, Lucas, Juan) y Hechos</h2>
+                <p>Llamado "el menor" para distinguirlo de Santiago el mayor. Poca información bíblica, pero según la tradición predicó en Egipto.</p>
+            </div>
+
+            <div class="card" data-category="evangelistas">
+                <div class="top">
+                    <h1><i class="fas fa-fist-raised icon"></i> Simón el Zelote</h1>
+                    <img src="img/ocasiones_caer.png" alt="Simón Zelote">
+                </div>
+                <h2>Evangelios (Mateo, Marcos, Lucas, Juan)</h2>
+                <p>Un ferviente nacionalista que se unió a Jesús, dejando atrás su pasado político. Su transformación muestra el poder del evangelio para cambiar corazones.</p>
+            </div>
+
+            <div class="card" data-category="evangelistas">
+                <div class="top">
+                    <h1><i class="fas fa-dove icon"></i> Tadeo</h1>
+                    <img src="img/ocasiones_caer.png" alt="Tadeo">
+                </div>
+                <h2>Evangelios (Mateo, Marcos, Lucas, Juan), Hechos y posible autor de Judas</h2>
+                <p>No confundir con Judas Iscariote, según la tradición fue misionero (posiblemente en Siria o Armenia). También conocido como Judas Tadeo.</p>
+            </div>
+
+            <div class="card" data-category="evangelistas">
+                <div class="top">
+                    <h1><i class="fas fa-coins icon"></i> Judas Iscariote</h1>
+                    <img src="img/ocasiones_caer.png" alt="Judas Iscariote">
+                </div>
+                <h2>Evangelios (Mateo, Marcos, Lucas, Juan)</h2>
+                <p>Conocido por traicionar a Jesús por treinta piezas de plata. Su historia sirve como advertencia sobre la avaricia y la traición.</p>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Botón flotante para mostrar/ocultar info -->
+    <button class="toggle-info-btn" id="toggleInfoBtn">
+        <i class="fas fa-info"></i>
+    </button>
+
+    <script>
+        // JavaScript para funcionalidades interactivas
+        document.addEventListener('DOMContentLoaded', function() {
+            // Filtrado de discípulos
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const cards = document.querySelectorAll('.card');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remover clase active de todos los botones
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Agregar clase active al botón clickeado
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Mostrar/ocultar tarjetas según el filtro
+                    cards.forEach(card => {
+                        if (filterValue === 'all' || card.getAttribute('data-category').includes(filterValue)) {
+                            card.style.display = 'flex';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                    
+                    // Actualizar contador
+                    const visibleCards = document.querySelectorAll('.card[style*="display: flex"]');
+                    document.querySelector('.disciple-counter').textContent = visibleCards.length;
+                });
+            });
+            
+            // Botón para mostrar/ocultar sidebar en móviles
+            const toggleInfoBtn = document.getElementById('toggleInfoBtn');
+            const sidebarInfo = document.querySelector('.sidebar-info');
+            
+            toggleInfoBtn.addEventListener('click', function() {
+                sidebarInfo.classList.toggle('visible');
+                
+                if (sidebarInfo.classList.contains('visible')) {
+                    this.innerHTML = '<i class="fas fa-times"></i>';
+                } else {
+                    this.innerHTML = '<i class="fas fa-info"></i>';
+                }
+            });
+            
+            // Añadir clase visible a sidebar en móviles al hacer clic
+            if (window.innerWidth <= 991) {
+                sidebarInfo.classList.add('mobile-sidebar');
+            }
+            
+            // Cambiar texto del contador inicial
+            document.querySelector('.disciple-counter').textContent = cards.length;
+        });
+    </script>
+
+</body>
+</html>
